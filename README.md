@@ -1,15 +1,20 @@
-# Basic Sample Hardhat Project
+# Install
+```
+npm i
+```
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Setup
+```
+npx hardhat build
+```
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
+# Test
+```
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+```
+
+# Deployment
+```
+ethereum mainnet: https://etherscan.io/address/0xab7bc1769857f1f3d4d34fe41b7f997be8c64a82
 ```
